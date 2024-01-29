@@ -62,3 +62,17 @@ height = float(input("Please enter your height: "))
 print("Hello " + name2)
 print("You are " + str(age2) + " years old")
 print("You are " + str(height) + "cm tall")
+
+
+# ************************************** Math ************************************** #
+import math
+
+pi = 3.14
+print(round(pi))
+print(math.ceil(pi))
+print(math.floor(pi))
+print(abs(pi))
+print(pow(pi, 2))
+print(math.sqrt(420))
+print(max(x, y, pi))
+print(min(x, y, pi))
