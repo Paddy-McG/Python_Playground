@@ -56,4 +56,9 @@ print(x*3)
 
 # ************************************** Taking in User input ************************************** #
 name2 = input("What is your name? ")
+age2 = int(input("Please enter your age: "))
+height = float(input("Please enter your height: "))
+
 print("Hello " + name2)
+print("You are " + str(age2) + " years old")
+print("You are " + str(height) + "cm tall")
