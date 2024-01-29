@@ -76,3 +76,16 @@ print(pow(pi, 2))
 print(math.sqrt(420))
 print(max(x, y, pi))
 print(min(x, y, pi))
+
+
+# ************************************** Slicing ************************************** #
+name = "LewisHamilton"
+
+first_name = name[0:5]
+last_name = name[6:]
+funky_name = name[::2]
+reversed_name = name[::-1]
+
+print(first_name)
+print(last_name)
+print(funky_name)
