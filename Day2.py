@@ -32,7 +32,7 @@ for i in "Lewis Hamilton":
     
 for seconds in range(10,0,-1):
     print(seconds)
-    time.sleep(1)
+    time.sleep(0.5)
 
 print("Happy New Year!")
 
@@ -69,3 +69,17 @@ for i in range(1,21):
     else:
         print(i)
         
+# ************************************** Lists ************************************** #
+
+food = ["Beef" , "Chicken", "Pork"]
+print(food[0])
+
+for x in food:
+    print(x)
+    
+food.append("Ice Cream") # Adds to the end of the list temproary
+food.remove("Chicken") # Removes the specafied element
+food.pop() # Removes the last element of the list
+food.insert(0, "Cake") # Moves all up by 1 and takes the spot specafied 
+food.sort() # Sortss the list alphabetically
+food.clear() # clears the list
