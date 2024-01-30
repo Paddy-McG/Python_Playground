@@ -69,7 +69,7 @@ for i in range(1,21):
     else:
         print(i)
         
-# ************************************** Lists ************************************** #
+# ************************************** 1D Lists ************************************** #
 
 food = ["Beef" , "Chicken", "Pork"]
 print(food[0])
@@ -83,3 +83,13 @@ food.pop() # Removes the last element of the list
 food.insert(0, "Cake") # Moves all up by 1 and takes the spot specafied 
 food.sort() # Sortss the list alphabetically
 food.clear() # clears the list
+
+# ************************************** 2D Lists ************************************** #
+
+drinks = ["coffee", "tea", "coke"]
+dinner = ["beef", "chicken"]
+dessert = ["cake", "ice cream"]
+
+food = [drinks, dinner, dessert]
+print(food[0])
+print(food[1][1])
