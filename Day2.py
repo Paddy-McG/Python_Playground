@@ -93,3 +93,18 @@ dessert = ["cake", "ice cream"]
 food = [drinks, dinner, dessert]
 print(food[0])
 print(food[1][1])
+
+# ************************************** Tuple ************************************** #
+
+student = ("Lewis", 35, "male")
+
+print(student.count("Lewis"))
+print(student.index("male"))
+
+for x in student:
+    print(x)
+    
+if "Lewis"in student:
+    print("Lewis is here!")
+    
+    
