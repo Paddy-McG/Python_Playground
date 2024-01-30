@@ -126,3 +126,24 @@ for x in utensils:
     
 for i in dinner_table:
     print(i)
+    
+# ************************************** Dictionarys ************************************** #
+Capitals = {'USA':'Washington', 
+            'Ireland':'Dublin',
+            "Japan":"Tokyo",
+            "Korea":"Sendai"}
+
+Capitals.update({"Germany":"Berlin"})
+Capitals.update({"USA":"Las Vegas"})
+Capitals.pop("Ireland")
+
+print(Capitals["Japan"])
+print(Capitals.get('Germany'))
+print(Capitals.keys())
+print(Capitals.values())
+print(Capitals.items())
+
+for key,value in Capitals.items():
+    print(key, value)
+    
+# 1 : 47
