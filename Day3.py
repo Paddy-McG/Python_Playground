@@ -54,3 +54,12 @@ print(num)
 
 #* does the same thing *#
 print(round(abs(float(input("Enter a whole positive number: ")))))
+
+# ************************************** Scope ************************************** #
+
+def display_name():
+    name1 = "Code"
+    print(name1)
+    
+#* Cant print name1 outside 
+display_name()
