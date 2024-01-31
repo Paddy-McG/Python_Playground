@@ -43,3 +43,14 @@ def hello1(first,middle,last):
     print("Hello " + first + " " + middle + " " + last)
     
 hello1(last = "McG", middle = "James" , first = "Paddy")
+
+# ************************************** Nested Function Calls ************************************** #
+
+num = input("Enter a whole positive number: ")
+num = float(num)
+num = abs(num)
+num = round(num)
+print(num)
+
+#* does the same thing *#
+print(round(abs(float(input("Enter a whole positive number: ")))))
