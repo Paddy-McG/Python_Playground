@@ -26,3 +26,13 @@ my_name = "Paddy"
     
 hello("Lewis", 21)
 hello(my_name, 18)
+
+# ************************************** Return statement ************************************** #
+
+def multiply(number1, number2):
+    return number1 * number2
+
+x = multiply(1256, 45)
+
+print(multiply(6,8))
+print(x)
