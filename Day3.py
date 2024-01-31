@@ -16,3 +16,13 @@ print(first_name)
 print(name)
 
 # ************************************** Functions ************************************** #
+
+def hello(name1, age):
+    print("Hello " + name1)
+    print("You are " + str(age) + " years old")
+    print("Have a nice day!")
+    
+my_name = "Paddy"
+    
+hello("Lewis", 21)
+hello(my_name, 18)
