@@ -36,3 +36,10 @@ x = multiply(1256, 45)
 
 print(multiply(6,8))
 print(x)
+
+# ************************************** Keyword Arguments ************************************** #
+
+def hello1(first,middle,last):
+    print("Hello " + first + " " + middle + " " + last)
+    
+hello1(last = "McG", middle = "James" , first = "Paddy")
