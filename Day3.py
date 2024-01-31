@@ -75,3 +75,13 @@ def add(*stuff):
     return sum
 
 print(add(1,2,3,4,5,5,6,7,67,34546,7))
+
+# ************************************** *kwargs ************************************** #
+
+def hello2(**kwargs):
+    #print("Hello " + kwargs['first'] + " " + kwargs['last'])
+    print("Hello", end = " ")
+    for key,value in kwargs.items():
+        print(value, end = " ")
+    
+hello2(first = "Lewis", middle = "P", last = "Hamilton")
